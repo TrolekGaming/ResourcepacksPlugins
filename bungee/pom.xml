@@ -41,6 +41,11 @@
             <id>kyngs-repo</id>
             <url>https://repo.kyngs.xyz/releases</url>
         </repository>
+        <repository>
+            <id>minecodes-repository</id>
+            <name>mineCodes Organization Repository</name>
+            <url>https://repository.minecodes.pl/releases</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -129,6 +134,11 @@
             <artifactId>bungeeplugin</artifactId>
             <version>1.2-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>pl.minecodes.minelogin</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.6.0</version>
         </dependency>
     </dependencies>
 
